@@ -1,0 +1,10 @@
+/* Add this CSS to your stylesheet */
+.site-footer {
+    background-color: black; /* Keeping the background color black */
+}
+
+.site-footer a,
+.site-footer p
+.p {
+    color: white; /* Changing the color of all links and paragraphs to white */
+}

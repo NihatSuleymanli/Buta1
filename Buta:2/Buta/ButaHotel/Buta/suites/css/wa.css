@@ -1,0 +1,66 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    z-index: 9999; /* Ensure the button appears above other content */
+}
+
+.whatsapp-button:hover {
+    background-color: #fff; /* Change background to white */
+}
+
+.whatsapp-button:hover svg {
+    fill: #25d366; /* Change icon color to green */
+}
+
+
+.phone-call-button {
+    position: fixed;
+    bottom: 90px; /* Adjust this value to position the button relative to the WhatsApp button */
+    right: 20px;
+    background-color: #25d366; /* Change color to blue */
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    z-index: 9999; /* Ensure the button appears above other content */
+}
+
+.phone-call-button:hover {
+    background-color: #fff; /* Change background to white */
+}
+
+.phone-call-button:hover svg {
+    fill: #007bff; /* Change icon color to blue */
+}
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}

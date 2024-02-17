@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      animation: slideIn 1s ease-in-out;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+    .map-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 60%; /* Aspect ratio 3:2 */
+      margin-bottom: 20px;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .map {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .contact-info {
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .contact-info p {
+      margin: 10px 0;
+    }
+    .contact-info i {
+      font-size: 24px;
+      margin-right: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .contact-info a:hover i {
+      transform: rotate(360deg);
+    }
+    /* Social media icons style */
+    .social-icons {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .social-icons a {
+      margin: 0 10px; /* Add some space between icons */
+    }
+    .social-icons svg {
+      width: 32px; /* Increase the size */
+      height: 32px;
+      fill: black; /* Change the color to black */
+      transition: transform 0.3s ease-in-out;
+    }
+    .social-icons a:hover svg {
+      transform: scale(1.2);
+    }
+    .back-button {
+      text-align: center;
+      margin-top: 20px;
+      animation: slideInButton 1s ease-in-out;
+    }
+    @keyframes slideInButton {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Bizimlə Əlaqə</h1>
+  
+  <div class="map-container">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12159.378591968578!2d47.1322153!3d40.3679689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403ed36fa658018d%3A0x2b5e83a1280ba38b!2zQnV0YSDEsHN0aXJhaMmZdCBNyZlya8mZemk!5e0!3m2!1sen!2saz!4v1707838282031!5m2!1sen!2saz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+  <div class="contact-info">
+    <p>
+      <!-- Phone icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+      </svg>
+      <!-- Phone link -->
+      <a href="tel:+994505900909" style="color: black;">
+          <!-- Phone number -->
+          Phone: +994505900909
+          <br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg>
+          <a href="tel:++994202082020" style="color: black;">
+            <!-- Phone number -->
+            Phone: +994202082020
+      </a>
+    </p>
+    <p>
+      <!-- Email icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+      </svg>
+      <!-- Email link -->
+      <a href="mailto:butahotel1@gmail.com" style="color: black;">
+          <!-- Email address -->
+          Email: butahotel1@gmail.com
+      </a>
+    </p>
+    <p>
+      <!-- Location icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg>
+      <!-- Location link -->
+      <a href="#" style="color: black;">
+          <!-- Location -->
+          Location: Bərdə ş. 4 nömrəli məktəbin yanı
+      </a>
+    </p>
+    
+    <!-- Social media icons -->
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=61556350508414&mibextid=LQQJ4di" target="_blank" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg>
+      </a>
+      
+      <a href="https://wa.me/+994505900909" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+        </svg>
+        </svg>
+      </a>
+      
+      <a href="https://www.instagram.com/berdehotelbuta?igsh=MTYzZzNieXoycHlhYw%3D%3D" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.433-.174 1.942-.372.526-.205.972-.478 1.417-.923.445-.445.719-.891.923-1.417.198-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.174-1.433-.372-1.941a3.05 3.05 0 0 0-.923-1.416A3.9 3.9 0 0 0 13.24.42c-.508-.198-1.09-.333-1.941-.372C10.444.01 10.172 0 7.999 0h.001zm-.666 1.286h.666c2.09 0 2.342.008 3.173.046.722.035 1.147.166 1.42.273.345.134.592.293.846.548.255.254.414.502.548.847.107.274.239.699.273 1.42.038.83.046 1.082.046 3.172s-.008 2.343-.046 3.173c-.034.722-.166 1.147-.273 1.42-.134.345-.293.592-.548.846-.254.255-.502.414-.847.548-.274.107-.699.239-1.42.273-.83.038-1.082.046-3.172.046s-2.343-.008-3.173-.046c-.722-.034-1.147-.166-1.42-.273a3.05 3.05 0 0 1-.847-.548 3.05 3.05 0 0 1-.548-.847c-.107-.274-.239-.699-.273-1.42-.038-.83-.046-1.082-.046-3.172s.008-2.343.046-3.173c.034-.722.166-1.147.273-1.42.134-.345.293-.592.548-.847.255-.254.502-.414.847-.548.274-.107.699-.239 1.42-.273.443-.021.732-.031 1.84-.035zm4.796 1.522a.5.5 0 0 1 .707.707l-1.5 1.5a.5.5 0 0 1-.707-.707l1.5-1.5zM8 4.752a3.248 3.248 0 0 0-3.248 3.248A3.248 3.248 0 0 0 8 11.248a3.248 3.248 0 0 0 3.248-3.248A3.248 3.248 0 0 0 8 4.752z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Back button -->
+  <div class="back-button">
+    <a href="index.html" class="btn btn-primary">Back to Home</a>
+  </div>
+</div>
+
+</body>
+</html>

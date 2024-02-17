@@ -1,0 +1,46 @@
+.call-button {
+    position: fixed;
+    bottom: 20px;
+    right: 90px;
+    background-color: green;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    z-index: 9999; /* Ensure the button appears above other content */
+}
+
+.call-button:hover {
+    background-color: #fff; /* Change background to white */
+}
+
+.call-button:hover svg {
+    fill: #007bff; /* Change icon color to blue */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .call-button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        bottom: 15px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .call-button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        bottom: 10px;
+        right: 20px;
+    }
+}
